@@ -91,3 +91,5 @@ function playGame(num = 5)
         play();
     }
 }
+
+playGame();
