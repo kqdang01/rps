@@ -1,0 +1,95 @@
+html {
+    background-color: oklch(21% 0.034 264.665);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.scoreboard {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+}
+
+.winner {
+    text-align: center;
+    flex: 1;
+}
+
+.playerHealth {
+    display: flex;
+    gap: 10px;
+}
+
+.playerHealth div,
+.cpuHealth div {
+    height: 10px;
+    width: 40px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cpu h1 {
+    text-align: right;
+}
+
+.cpuHealth {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main h1 {
+    flex: 1;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+
+.choicesContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choicesContainer img {
+    height: 150px;
+}
+
+.choicesContainer button {
+    border: 2px solid oklch(27.8% 0.033 256.848);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: oklch(21% 0.034 264.665);
+}
+
+.choicesContainer button:hover {
+    padding: 35px;
+}
+
+.retry {
+    border: 2px solid oklch(27.8% 0.033 256.848);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: oklch(21% 0.034 264.665);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
